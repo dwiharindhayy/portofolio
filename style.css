@@ -56,7 +56,6 @@ body{
     margin-top: 105px;
 }
 .home-component {
-    margin-left: 81px;
     margin-top: 20%;
 }
 
@@ -94,6 +93,10 @@ body{
 }
 .home {
     display: flex;
+    justify-content: space-between;
+    padding-left: 81px;
+    padding-right: 81px;
+    
 }
 .img-home {
     margin-left: 270px;
