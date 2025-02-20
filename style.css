@@ -1,0 +1,131 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 12%;
+    background: #000(0,0,0,0,8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-style: solid; 
+    border-color: #ffffff;
+    border-width: 0px 0px 3px 0px;
+}
+.logo{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.navbar a{
+    font-size: 18;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.navbar a:hover,
+.navbar a:active{
+    color:#F0768B;
+    border-bottom: 3px solid #F0768B
+}
+.greeting h1{
+    color: #F0768B;
+    font-size: 22px;
+    font-weight: 700;
+}
+.home {
+    margin-top: 105px;
+}
+.home-component {
+    margin-left: 81px;
+    margin-top: 20%;
+}
+
+.name{
+    margin-top: 33px;
+}
+.name h1{
+    color: #F0768B;
+    font-size: 64px;
+    font-weight: 700;
+}
+.tittle h1 {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 32px;
+}
+.tittle {
+    margin-top: 3px;
+}
+.btn-download button{
+    background-color: #F0768B;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+.btn-download {
+    margin-top: 31px;
+}
+.img-home img {
+    width: 529px;
+    height: 600px;
+}
+.home {
+    display: flex;
+}
+.img-home {
+    margin-left: 270px;
+}
+.about-me{
+    padding-left: 46px;
+    padding-right: 46px;
+}
+.container-about-me{
+    margin-top: 105px;
+    width: 100%;
+    height: 100vh;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 20px;
+    padding-top: 64px;
+    padding-left: 67px;
+    padding-right: 67px;
+}
+.tittle-about-me h1 {
+    color: #F0768B;
+    font-size: 54px;
+    font-weight: 700;
+}
+.description h1{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 500;
+}
+.about-contact p {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 32px;
+}
